@@ -1,6 +1,6 @@
 // Console.js
-function displayMessage(message){
-    console.log(message);
-}
+const displayMessage = (msg) => {
+    console.log(msg);
+};
 
 module.exports = displayMessage;
